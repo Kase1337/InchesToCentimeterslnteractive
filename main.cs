@@ -9,7 +9,7 @@ class Program {
     // Prompt the user to enter a measurement in inches
     Console.Write("Enter a measurement in inches: ");
     
-    // Read the entered value
+    // Read and convert the entered value to string
      Input_value = Convert.ToInt32(Console.ReadLine());
     
     // convert inches to centimeters aka multiply the entered value by 2.54.
